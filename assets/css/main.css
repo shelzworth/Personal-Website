@@ -27,6 +27,7 @@ section, summary, time, mark, audio, video {
     scroll-behavior: smooth;
 }
 
+
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
@@ -91,7 +92,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #c1b8cf;  
+		background: #000000;  
 		
 		font-size: 15pt;
 		line-height: 1.85em;
@@ -525,7 +526,29 @@ input, select, textarea {
 				.row.gtr-200.gtr-uniform > * {
 					padding-top: 80px;
 				}
+				.icon__github
+				{
+					display: inline-block;
+					
+					transform: scale(75%) translateY(40px) translateX(0px);
+			
+				}
+	.child__about 
+	{
+		display: block;
+		transform: scale(60%) translateX(-150px);
+		margin-top: -300px;
+		margin-bottom: -300px;
+		
+	}
+	.lang__list
+	{
+		
+	}
+	.tool__list
+	{
 
+	}
 		@media screen and (max-width: 1680px) {
 
 			.row {
@@ -768,6 +791,23 @@ input, select, textarea {
 						.row.gtr-200.gtr-uniform > * {
 							padding-top: 80px;
 						}
+						.icon__github
+						{
+							display: inline-block;
+							
+							transform: scale(75%) translateY(40px) translateX(0px);
+							
+							
+							
+						}
+	.child__about 
+	{
+		display: block;
+		transform: scale(50%) translateX(-300px);
+		margin-top: -350px;
+		margin-bottom: -350px;
+		
+	}
 
 		}
 
@@ -1013,6 +1053,20 @@ input, select, textarea {
 						.row.gtr-200.gtr-uniform > * {
 							padding-top: 72px;
 						}
+						.icon__github
+				{
+					display: inline-block;
+					
+					transform: scale(60%) translateY(50px) translateX(10px);
+				}
+				.child__about 
+	{
+		display: block;
+		transform: scale(35%) translateX(-370px);
+		margin-top: -440px;
+		margin-bottom: -440px;
+		
+	}
 
 		}
 
@@ -1258,6 +1312,21 @@ input, select, textarea {
 						.row.gtr-200.gtr-uniform > * {
 							padding-top: 64px;
 						}
+				.icon__github
+				{
+					display: inline-block;
+					
+					transform: scale(50%) translateY(70px) translateX(20px);
+				}
+				.child__about
+				{
+					display: block;
+					transform: scale(30%) translateX(-500px);
+					margin-top: -485px;
+					margin-bottom: -480px;
+					
+				}
+
 
 		}
 
@@ -1782,16 +1851,18 @@ input, select, textarea {
 		}
 
 	footer {
-		margin: 2.5em 0 0 0;
+		margin: 2.5em 0 2.5em 0;
+	}
+	.footer__git
+	{
+		color: white;
+    	background-color: transparent;
+    	border-color: transparent;
+    	display: block;
+		transform:scale(65%) translateY(24px);
 	}
 /*about*/
-.about 
-	{
-		display: flex;
-		justify-content: center;
-		margin-top: -4em;
-		margin-bottom: -4em;
-	}
+
 /* Image */
 
 	
@@ -1814,8 +1885,8 @@ input, select, textarea {
 		}
 
 		.image.featured {
+			transform: 70%;
 			display: block;
-			width: 100%;
 			margin: 0 0 0em 0;
 		}
 
@@ -2485,6 +2556,7 @@ input, select, textarea {
 		#footer .icon.circled {
 			background: #fff;
 			color: #9611ad;
+			
 		}
 
 		#footer header {
@@ -2505,6 +2577,22 @@ input, select, textarea {
 				text-align: center;
 				margin: 0 0 3em 0;
 			}
+			.footer__brief
+			{
+    			color: var(white);
+    			background-color: transparent;
+    			border-color: transparent;
+    			display: block;
+				transform:scale(65%) translateY(24px);
+			}
+			.footer__git
+	{
+		color: white;
+    	background-color: transparent;
+    	border-color: transparent;
+    	display: block;
+		transform:scale(65%) translateY(24px);
+	}
 
 /* Carousel */
 
@@ -2693,6 +2781,22 @@ input, select, textarea {
 				padding-left: 2em;
 				padding-right: 2em;
 			}
+			.footer__brief
+			{
+    			color: var(white);
+    			background-color: transparent;
+    			border-color: transparent;
+    			display: block;
+				transform:scale(70%) translateY(18px);
+			}
+			.footer__git
+	{
+		color: white;
+    	background-color: transparent;
+    	border-color: transparent;
+    	display: block;
+		transform:scale(65%) translateY(24px);
+	}
 
 	}
 
@@ -2723,6 +2827,22 @@ input, select, textarea {
 			#footer {
 				padding: 4em 2em 4em 2em;
 			}
+			.footer__brief
+			{
+    			color: var(white);
+    			background-color: transparent;
+    			border-color: transparent;
+    			display: block;
+				transform:scale(70%) translateY(19px);
+			}
+			.footer__git
+	{
+		color: white;
+    	background-color: transparent;
+    	border-color: transparent;
+    	display: block;
+		transform:scale(65%) translateY(24px);
+	}
 
 		/* Carousel */
 
@@ -3118,6 +3238,22 @@ input, select, textarea {
 				padding-left: 1em;
 				padding-right: 1em;
 			}
+			.footer__brief
+			{
+    			color: var(white);
+    			background-color: transparent;
+    			border-color: transparent;
+    			display: block;
+				transform:scale(70%) translateY(12px);
+			}
+			.footer__git
+	{
+		color: white;
+    	background-color: transparent;
+    	border-color: transparent;
+    	display: block;
+		transform:scale(65%) translateY(24px);
+	}
 
 		/* Carousel */
 
