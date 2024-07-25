@@ -1818,6 +1818,15 @@ input, select, textarea {
 							padding-top: 40px;
 						}
 
+				.child__about
+				{
+					display: block;
+					transform: scale(25%) translateX(-625px);
+					margin-top: -485px;
+					margin-bottom: -495px;
+					
+				}
+
 		}
 
 /* Sections/Article */
