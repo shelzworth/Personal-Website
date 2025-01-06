@@ -150,7 +150,7 @@ input, select, textarea {
 
 	strong, b {
 		font-weight: 400;
-		color: #5c52ec;
+		color: #a257d4;
 	}
 
 	em, i {
@@ -168,7 +168,7 @@ input, select, textarea {
 	}
 
 		a:hover {
-			color: #b323ec;
+			color: #000000;
 			border-bottom-color: transparent;
 		}
 
@@ -540,14 +540,6 @@ input, select, textarea {
 		margin-top: -300px;
 		margin-bottom: -300px;
 		
-	}
-	.lang__list
-	{
-		
-	}
-	.tool__list
-	{
-
 	}
 		@media screen and (max-width: 1680px) {
 
@@ -1873,10 +1865,7 @@ input, select, textarea {
 /*about*/
 
 /* Image */
-
-	
-
-	.image {
+    .image {
 		position: relative;
 		display: inline-block;
 		border: 0;
@@ -2034,7 +2023,7 @@ input, select, textarea {
 			}
 
 				ul.icons li a:hover {
-					color: #b323ec;
+					color: #919191;
 				}
 
 /* Form */
@@ -2050,7 +2039,6 @@ input, select, textarea {
 	form input[type="password"],
 	form select,
 	form textarea {
-		-webkit-appearance: none;
 		display: block;
 		border: 0;
 		background: #fafafa;
@@ -2279,7 +2267,7 @@ input, select, textarea {
 		background-size: cover;
 		background-position: center center;
 		background-attachment: fixed;
-		color: #fff;
+		color: #000000;
 		text-align: center;
 		padding: 7.5em 0 2em 0;
 		cursor: default;
@@ -2310,9 +2298,16 @@ input, select, textarea {
 			}
 
 		#header h1 {
-			color: #fff;
 			font-size: 3em;
 			line-height: 1em;
+			color: white; /* Text color */
+			text-shadow: 
+			-1px -1px 0 black,  /* Top left */
+			1px -1px 0 black,   /* Top right */
+			-1px 1px 0 black,   /* Bottom left */
+			1px 1px 0 black;    /* Bottom right */
+			font-size: 2rem; /* Adjust size as needed */
+			font-weight: bold; /* Optional: makes text stand out */
 		}
 
 			#header h1 a {
@@ -2364,14 +2359,14 @@ input, select, textarea {
 			width: 100%;
 			height: 100%;
 			opacity: 0;
-			-moz-transition: opacity 2.5s ease-in-out;
-			-webkit-transition: opacity 2.5s ease-in-out;
-			-ms-transition: opacity 2.5s ease-in-out;
-			transition: opacity 2.5s ease-in-out;
-			-moz-transition-delay: 0.5s;
-			-webkit-transition-delay: 0.5s;
-			-ms-transition-delay: 0.5s;
-			transition-delay: 0.5s;
+			-moz-transition: opacity 2s ease-in-out;
+			-webkit-transition: opacity 2s ease-in-out;
+			-ms-transition: opacity 2s ease-in-out;
+			transition: opacity 2s ease-in-out;
+			-moz-transition-delay: 0.25s;
+			-webkit-transition-delay: 0.25s;
+			-ms-transition-delay: 0.25s;
+			transition-delay: 0.25s;
 		}
 
 	body.homepage.is-preload #header:after {
@@ -2393,13 +2388,13 @@ input, select, textarea {
 	}
 
 		#nav > ul {
-			line-height: 0px;
+			line-height: 2px;
 			position: relative;
 			display: inline-block;
 			margin: 0;
 			height: 21px;
-			border-left: solid 1px rgb(255, 255, 255);
-			border-right: solid 1px rgb(255, 255, 255);
+			border-left: solid 2px rgb(2, 2, 2);
+			border-right: solid 2px rgb(0, 0, 0);
 		}
 
 			#nav > ul:before, #nav > ul:after {
@@ -2411,8 +2406,8 @@ input, select, textarea {
 				margin-top: -2px;
 				height: 5px;
 				
-				border-top: solid 1px rgb(255, 255, 255);
-				border-bottom: solid 1px rgb(255, 255, 255);
+				border-top: solid 1px rgb(0, 0, 0);
+				border-bottom: solid 1px rgb(0, 0, 0);
 			}
 
 			#nav > ul:before {
@@ -2426,11 +2421,13 @@ input, select, textarea {
 			}
 
 			#nav > ul > li {
-				color: #ddd;
+				color: #000000;
 				display: inline-block;
 				margin: -9px 0.5em 0 0.5em;
 				border-radius: 0.5em;
 				padding: 0.85em;
+				font-size: 1.25rem;
+				font-weight: 400;
 				border: solid 1px transparent;
 				-moz-transition: color 0.35s ease-in-out, border-color 0.35s ease-in-out;
 				-webkit-transition: color 0.35s ease-in-out, border-color 0.35s ease-in-out;
@@ -2439,11 +2436,11 @@ input, select, textarea {
 			}
 
 				#nav > ul > li.active {
-					border-color: rgb(255, 255, 255);
+					border-color: rgb(0, 0, 0);
 				}
 				#nav > ul > li:hover {
-					border-color: rgb(255, 255, 255);
-					box-shadow: 0 0 10px rgba(255, 255, 255, 0.8) 0 0 20px rgb(255, 255, 255) rgb(255, 255, 255, 0.4);
+					border-color: rgb(0, 0, 0);
+					box-shadow: 0 0 10px rgba(3, 3, 3, 0.8) 0 0 20px rgb(255, 255, 255) rgb(255, 255, 255, 0.4);
 				}
 				
 				
@@ -2486,7 +2483,7 @@ input, select, textarea {
 			}
 
 			.dropotron li:hover {
-				color: #b323ec;
+				color: #b8b5b9;
 			}
 
 			.dropotron li a, .dropotron li span {
@@ -2576,7 +2573,7 @@ input, select, textarea {
 
 		#footer .icon.circled {
 			background: #fff;
-			color: #9611ad;
+			color: #080808;
 			
 		}
 
@@ -2648,7 +2645,6 @@ input, select, textarea {
 				-o-transition: background-color 0.35s ease-in-out;
 				-ms-transition: background-color 0.35s ease-in-out;
 				transition: background-color 0.35s ease-in-out;
-				-webkit-backface-visibility: hidden;
 			}
 
 			.carousel .forward:after, .carousel .backward:after {
@@ -3200,6 +3196,7 @@ input, select, textarea {
 					padding-top: 1.5em;
 					padding-left: 1em;
 					padding-right: 1em;
+
 				}
 
 				#header header > p {
